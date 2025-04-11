@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Binary Tree Quiz</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta-Ethical Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="quiz-container">
-    <h1>Binary Tree Quiz</h1>
-    <div class="question-container">
-      <p class="question">Placeholder Question</p>
-      <div class="options">
-        <button class="option" data-choice="left">Option 1</button>
-        <button class="option" data-choice="right">Option 2</button>
-      </div>
+    <div class="container">
+        <h1>Meta-Ethical Quiz</h1>
+        <div id="questionContainer">
+            <!-- Question and answer options will be injected here -->
+        </div>
+        <button id="nextBtn" type="button" style="display: none;">Next Question</button>
+        <div id="result" style="display: none;">
+            <h2>Your Meta-Ethical Category Results</h2>
+            <p id="resultText"></p>
+            <p id="resultDescription"></p> <!-- Brief description of the meta-ethical category -->
+        </div>
     </div>
-    <div class="progress">
-      <p>Progress: <span class="progress-count">0</span>/<span class="total-count">0</span></p>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
